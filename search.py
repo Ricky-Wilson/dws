@@ -14,8 +14,7 @@ def search(query_str, top=10):
         for result in searcher.search(query):
             # yield result["title"]
             yield result["textdata"]
-
-        # print(results[i]['title'], str(results[i].score), results[i]['textdata'])
+        # print(results[title'], str(results[.score), results[i]['textdata'])
 
 
 def all_docs():
