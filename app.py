@@ -4,7 +4,7 @@ import flask
 from search import search
 from flask import *
 import pathlib
-
+name = 'foo'
 app = Flask(__name__)
 
 
